@@ -1,5 +1,4 @@
-import glob, os, numpy
-from PIL import Image
+import glob, os
 from PIL.PngImagePlugin import PngInfo
 from pathlib import Path
 
