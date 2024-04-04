@@ -1,4 +1,4 @@
-Scripts to convert all the 3dst file supported to png files recursively in a folder.
+Scripts to convert recursively all the 3dst file supported to png files in a directory.
 
 Supported formats are RGBA8 and RGB8.
 
