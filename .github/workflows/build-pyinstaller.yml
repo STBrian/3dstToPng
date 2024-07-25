@@ -24,7 +24,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pyinstaller pillow setuptools
+        pip install pyinstaller pillow setuptools numpy
     - name: Build executable
       run: |
         python -m PyInstaller --onefile from3dstToPng.py
@@ -45,7 +45,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pyinstaller pillow setuptools
+        pip install pyinstaller pillow setuptools numpy
     - name: Build executable
       run: |
         python -m PyInstaller --onefile from3dstToPng.py
