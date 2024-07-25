@@ -27,8 +27,8 @@ jobs:
         pip install pyinstaller pillow
     - name: Build executable
       run: |
-        python -m PyInstaller from3dstToPng.py
-        python -m PyInstaller fromPngTo3dst.py
+        python -m PyInstaller --onefile from3dstToPng.py
+        python -m PyInstaller --onefile fromPngTo3dst.py
     - uses: actions/upload-artifact@v4
       with:
         name: 3dstConverter-win-x64
@@ -48,8 +48,8 @@ jobs:
         pip install pyinstaller pillow
     - name: Build executable
       run: |
-        python -m PyInstaller from3dstToPng.py
-        python -m PyInstaller fromPngTo3dst.py
+        python -m PyInstaller --onefile from3dstToPng.py
+        python -m PyInstaller --onefile fromPngTo3dst.py
     - uses: actions/upload-artifact@v4
       with:
         name: 3dstConverter-linux-x64
