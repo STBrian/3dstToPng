@@ -2,7 +2,7 @@ import glob, os
 from PIL import Image
 from pathlib import Path
 
-from modules.tex3dst import Texture3dst
+from modules.py3dst import Texture3dst
 
 root = input("Introduce el nombre de la carpeta raíz: ")
 
